@@ -1,0 +1,42 @@
+{
+	"name": "nyc-config-common",
+	"version": "1.0.0",
+	"description": "A reusable nyc configuration to improve common workflow",
+	"repository": "shinnn/nyc-config-common",
+	"author": "Shinnosuke Watanabe (https://github.com/shinnn)",
+	"license": "ISC",
+	"scripts": {
+		"pretest": "eslint .",
+		"test": "node test/test.js"
+	},
+	"files": [
+		"index.js"
+	],
+	"keywords": [
+		"nyc",
+		"istanbul",
+		"sharable",
+		"reusable",
+		"common",
+		"coverage",
+		"configuration",
+		"config",
+		"reporter",
+		"ci"
+	],
+	"devDependencies": {
+		"@shinnn/eslint-config-node": "^6.0.0",
+		"@shinnn/self": "file:test/fixtures",
+		"eslint": "^5.4.0",
+		"execa": "^1.0.0",
+		"nyc": "^13.0.1",
+		"rimraf": "^2.6.2",
+		"tape": "^4.9.1"
+	},
+	"eslintConfig": {
+		"extends": "@shinnn/node"
+	},
+	"nyc": {
+		"extends": "@shinnn/self"
+	}
+}
