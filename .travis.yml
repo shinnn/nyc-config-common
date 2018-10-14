@@ -2,3 +2,8 @@ branches:
   except: /^v\d/
 language: node_js
 node_js: node
+matrix:
+  include:
+  - os: linux
+  - os: windows
+    script: node test\\test.js

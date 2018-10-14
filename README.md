@@ -2,7 +2,6 @@
 
 [![npm version](https://img.shields.io/npm/v/nyc-config-common.svg)](https://www.npmjs.com/package/nyc-config-common)
 [![Build Status](https://travis-ci.com/shinnn/nyc-config-common.svg?branch=master)](https://travis-ci.com/shinnn/nyc-config-common)
-[![Build status](https://ci.appveyor.com/api/projects/status/9q96d807gopjongc/branch/master?svg=true)](https://ci.appveyor.com/project/ShinnosukeWatanabe/nyc-config-common/branch/master)
 
 A reusable [nyc](https://github.com/istanbuljs/nyc) configuration to improve common workflow
 
