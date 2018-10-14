@@ -1,6 +1,6 @@
 {
 	"name": "nyc-config-common",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "A reusable nyc configuration to improve common workflow",
 	"repository": "shinnn/nyc-config-common",
 	"author": "Shinnosuke Watanabe (https://github.com/shinnn)",
