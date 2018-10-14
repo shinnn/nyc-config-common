@@ -9,7 +9,7 @@ if (process.env.CI) {
 		main.reporter = ['text'];
 	}
 } else {
-	main['temp-directory'] = 'coverage/.nyc_output';
+	main.tempDir = 'coverage/.nyc_output';
 	main.reporter = ['html', 'text'];
 }
 
